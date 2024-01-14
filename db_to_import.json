@@ -1,0 +1,54 @@
+{
+	"contacts": [
+		{
+			"id": 1,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Sarah Import",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "s.import@gmail.com",
+			"phoneNumber": "676 545 411",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/simport",
+			"labels": ["imp", "sound", "calc", "delphi"],
+			"notes": [
+				{
+					"date": "19/02/2018",
+					"time": "11:45",
+					"content": "Email sent with an example"
+				},
+				{
+					"date": "20/02/2018",
+					"time": "16:24",
+					"content": "Email received with a new example too"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Jane Doe",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "jane.doe@example.com",
+			"phoneNumber": "555 123 456",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/janedoe",
+			"labels": [],
+			"notes": [
+				{
+					"date": "02/01/2022",
+					"time": "10:30",
+					"content": "Initial outreach via LinkedIn message"
+				},
+				{
+					"date": "05/01/2022",
+					"time": "13:45",
+					"content": "Received positive response expressing interest"
+				}
+			]
+		}
+	]
+}

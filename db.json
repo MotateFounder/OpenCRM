@@ -1,0 +1,314 @@
+{
+	"contacts": [
+		{
+			"id": 1,
+			"controlTag": [],
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "John Perk",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "j.perk@gmail.com",
+			"phoneNumber": "666 554 444",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/jperk",
+			"labels": ["DSP", "SW", "embedded", "C++"],
+			"notes": [
+				{
+					"date": "25/12/2021",
+					"time": "14:04",
+					"content": "#orange \n Email sent to ask for his motivation to move to another job"
+				},
+				{
+					"date": "20/12/2021",
+					"time": "16:07",
+					"content": "#red \n Email received telling me he is interested in the job opportunity"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Jane Doe",
+			"contactGroup": "Samsung",
+			"contactLocation": "HongKong",
+			"emailAddress": "jane.doe@example.com",
+			"phoneNumber": "555 123 456",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/janedoe",
+			"labels": [],
+			"notes": [
+				{
+					"date": "02/01/2022",
+					"time": "10:30",
+					"content": "#green \n Initial outreach via LinkedIn message"
+				},
+				{
+					"date": "05/01/2022",
+					"time": "13:45",
+					"content": "Received positive response expressing interest"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Bob Johnson",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "bob.johnson@example.com",
+			"phoneNumber": "",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/bobjohnson",
+			"labels": ["Backend", "Java", "Database"],
+			"notes": [
+				{
+					"date": "10/01/2022",
+					"time": "09:15",
+					"content": "#orange \n Initial email sent to inquire about current job status"
+				},
+				{
+					"date": "15/01/2022",
+					"time": "11:20",
+					"content": "Received response indicating availability for new opportunities"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Alice Smith",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "alice.smith@example.com",
+			"phoneNumber": "888 234 567",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/alicesmith",
+			"labels": ["Data Science", "Python", "Machine Learning"],
+			"notes": [
+				{
+					"date": "20/01/2022",
+					"time": "15:30",
+					"content": "#red \n Initial contact made through a networking event"
+				},
+				{
+					"date": "25/01/2022",
+					"time": "17:12",
+					"content": "Discussed recent projects and areas of interest. This is a link: https://unsplash.com/@jimmyferminphotography\nAmazing."
+				},
+				{
+					"date": "23/01/2022",
+					"time": "12:21",
+					"content": "She is thinking about it."
+				},
+				{
+					"date": "28/09/2020",
+					"time": "5:33",
+					"content": "#1\nThis note should be all the time at the top."
+				},
+				{
+					"date": "12/02/2020",
+					"time": "11:41",
+					"content": "#X This note should disappear. Available"
+				},
+				{
+					"date": "8/11/2019",
+					"time": "12:21",
+					"content": "#! Toma ya!"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1493106819501-66d381c466f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Michael Brown",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "michael.brown@example.com",
+			"phoneNumber": "999 345 678",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/michaelbrown",
+			"labels": ["Frontend", "React", "CSS"],
+			"notes": [
+				{
+					"date": "05/02/2022",
+					"time": "12:45",
+					"content": "Initial contact via email to discuss a potential project"
+				},
+				{
+					"date": "10/02/2022",
+					"time": "09:30",
+					"content": "Received positive response with interest in the project"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Sara Miller",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "",
+			"phoneNumber": "777 876 543",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/saramiller",
+			"labels": ["UI/UX", "Web Design", "Adobe XD"],
+			"notes": [
+				{
+					"date": "15/02/2022",
+					"time": "14:20",
+					"content": "Initial LinkedIn message regarding a design opportunity"
+				},
+				{
+					"date": "18/02/2022",
+					"time": "16:55",
+					"content": "Expressed interest and shared portfolio"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Chris Anderson",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "chris.anderson@example.com",
+			"phoneNumber": "777 987 123",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/chrisanderson",
+			"labels": ["Frontend", "Vue.js", "JavaScript"],
+			"notes": [
+				{
+					"date": "22/02/2022",
+					"time": "11:15",
+					"content": "Initial contact through a coding challenge invitation"
+				},
+				{
+					"date": "27/02/2022",
+					"time": "14:40",
+					"content": "Completed the coding challenge with impressive results"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Emily White",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "emily.white@example.com",
+			"phoneNumber": "888 765 432",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/emilywhite",
+			"labels": ["Marketing", "Social Media", "Content Creation"],
+			"notes": []
+		},
+		{
+			"id": 9,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "David Lee",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "david.lee@example.com",
+			"phoneNumber": "999 876 543",
+			"urlName": "LIP",
+			"urlLink": "",
+			"labels": ["Full Stack", "Node.js", "React"],
+			"notes": [
+				{
+					"date": "10/03/2022",
+					"time": "15:45",
+					"content": "Initial contact for a Full Stack development project"
+				},
+				{
+					"date": "15/03/2022",
+					"time": "10:10",
+					"content": "Shared portfolio and discussed project requirements"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Sophie Turner",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "sophie.turner@example.com",
+			"phoneNumber": "777 234 567",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/sophieturner",
+			"labels": ["HR", "Recruitment", "Employee Relations"],
+			"notes": [
+				{
+					"date": "20/03/2022",
+					"time": "11:30",
+					"content": "Initial contact for HR consulting services"
+				},
+				{
+					"date": "25/03/2022",
+					"time": "14:55",
+					"content": "Expressed interest and scheduled a consultation meeting"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1528892952291-009c663ce843?q=80&w=1844&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Pau Pou",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "pau.pou@example.com",
+			"phoneNumber": "578 958 545",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/paupou",
+			"labels": ["DSP", "SW", "embedded", "C++"],
+			"notes": [
+				{
+					"date": "24/02/2021",
+					"time": "13:30",
+					"content": "Initial contact for DSP and embedded sw consulting services"
+				},
+				{
+					"date": "26/03/2021",
+					"time": "11:55",
+					"content": "Expressed interest in helping with the software"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"type": "contact",
+			"picture": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"fullName": "Apathos Kapoulos",
+			"contactGroup": "Apple",
+			"contactLocation": "Alabama",
+			"emailAddress": "apathos.kapoulos@gmail.com",
+			"phoneNumber": "587 254 156",
+			"urlName": "LIP",
+			"urlLink": "www.linkedin.com/in/apathoskapoulos",
+			"labels": ["UX", "Frontend", "JavaScript"],
+			"notes": [
+				{
+					"date": "28/01/2020",
+					"time": "18:35",
+					"content": "Initial contact for UX development"
+				},
+				{
+					"date": "29/02/2020",
+					"time": "17:55",
+					"content": "Expressed interest and started collaborating"
+				}
+			]
+		}
+	]
+}

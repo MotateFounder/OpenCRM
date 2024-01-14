@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- CSS file -->
+		<link rel="stylesheet" href="styles.css">
+		<title>Contact Manager</title>
+	</head>
+	<body>
+		<div class="container">
+			
+			<!-- Control panel -->
+			<div id="controlPanel" class="controlPanel">
+			    <button id="loadDatabaseButton">Load Database</button>
+				<button id="saveDatabaseButton">Save Database</button>
+				<button id="newContactButton">New Contact</button>
+				<button id="manageContactsButton">Manage Contacts</button>
+				<div id="manageContacts">
+					<button id="importButton">Import</button>
+					<button id="exportButton">Export</button>
+					<button id="deleteButton">Delete</button>
+				</div>
+			</div>
+			<div id="newContactForm" class="newContactForm">
+			</div>
+			<!-- Contact table -->
+			<div id="searchDialog">
+				<input type="text" id="searchInput" placeholder="Search within the name, groups, labels, and notes">
+			</div>
+			<div id="contactTable">
+			</div>
+		</div>
+		
+		<!-- Modal container to show the contact details and notes -->
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<div id="modalContent">
+					<div id="addNotesAndEditContactsButtons" class="addNotesAndEditContactsButtons">
+						<button id="newNoteButton" class="newNoteButton">New Note</button>
+						<button id="editContactButton" class="editContactButton">Edit Contact</button>
+						<div id="newAddNoteEditContactDiv" class="newAddNoteEditContactDiv">
+						</div>
+					</div>
+					<div id="editContactForm" class="editContactForm">
+					</div>
+					<div id="newNoteForm" class="newNoteForm">
+					</div>
+					<div id="contactDetails" class="contactDetails">
+					</div>
+					<div id="newNoteDiv" class="container newNoteDiv">
+					</div>
+				</div>
+			</div>
+			
+			<!-- JavaScript file -->
+			<script src="app.js"></script>
+		</body>
+	</html>

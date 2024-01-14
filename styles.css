@@ -1,0 +1,357 @@
+:root {
+	--tab-pad: 10px; /* Set your desired padding value here */
+	--but-pad: 10px;
+	--but-mar: 1px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+	font-size: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: left;
+	font-size: 12px;
+	font-weight: 10;
+    color: #818181;
+	line-height: 0%;
+	padding-top: 8px;
+}
+
+p {
+    text-align: left;
+	font-weight: 10;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+button,
+#importButton,
+#exportButton,
+#deleteButton,
+.newNoteButton,
+.editContactButton
+{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+
+  
+  margin-left: var(--but-mar);
+  margin-right: var(--but-mar);
+}
+
+button:hover,
+#importButton:hover,
+#exportButton:hover,
+#deleteButton:hover,
+.newNoteButton:hover,
+.editContactButton:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+button:focus,
+#importButton:focus,
+#exportButton:focus,
+#deleteButton:focus,
+.newNoteButton:focus,
+.editContactButton:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+
+.newNote .deleteButton,
+.newImportantNote .deleteButton {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    background-color: rgba(0, 0, 0, 0);
+	height: 40px;
+	width: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+	color: rgba(120, 120, 120, 1);
+    
+}
+
+.newNote .deleteButton:hover,
+.newImportantNote .deleteButton:hover {
+    background-color: rgba(0, 0, 0, 0);
+	color: black;
+}
+
+#manageContactsButton{
+    visibility: hidden;
+}
+
+#importButton{
+	visibility: hidden;
+}
+
+#exportButton{
+	visibility: hidden;
+}
+
+#deleteButton{
+	visibility: hidden;
+}
+
+#contactList {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#controlPanel,
+#addNotesAndEditContactsButtons {
+    display: flex;
+}
+
+#manageContacts{
+}
+
+#contactTable {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+#contactsTable {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.contactsTable tbody tr.selected td:first-child {
+	background-color: #58ddc6; /* Add your desired background color */
+}
+
+.contactsTable tbody tr.redContact td:not(:first-child) {
+    background-color: #ff9393; /* Add your desired background color */
+    color: black; /* Add your desired text color */
+}
+
+.contactsTable tbody tr.orangeContact td:not(:first-child) {
+    background-color: #ffdf93; /* Add your desired background color */
+    color: black; /* Add your desired text color */
+}
+
+.contactsTable tbody tr.greenContact td:not(:first-child) {
+    background-color: #abff93; /* Add your desired background color */
+    color: black; /* Add your desired text color */
+}
+
+#contactTable td,
+#contactTable th {
+	padding-left: var(--tab-pad);
+	padding-right: var(--tab-pad);
+	/* border: none; */
+}
+
+#contactTable thead tr {
+	background-color: #fdbc00;
+	font-weight: bold;
+	text-align: left;
+}
+
+#contactTable tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+#contactTable tbody tr:nth-child(even) {
+	background-color: #e6e6e6;
+}
+
+.duplicate-name {
+    background-color: red !important;
+}
+
+#searchDialog {
+	padding-top: var(--tab-pad);
+	padding-bottom: var(--tab-pad);
+	margin-bottom: 0px !important;
+	display: none;
+}
+
+.personalInfo {
+	position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.infoText {
+	font-family: Helvetica, sans-serif !important;
+	margin-left: 10px;
+}
+
+.picStyle {
+	margin: 10px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.notesStyle {
+	visibility: hidden;
+	position: relative;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	white-space: pre-line;
+}
+
+.newNote,
+.newImportantNote {
+	position: relative;
+    flex-direction: row;
+    max-width: 95%;
+    margin: 20px 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	white-space: pre-line;
+}
+
+.newNoteDiv {
+	margin-left: auto; /* Align the div to the right */
+	justify-content: flex-end;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.newAddNoteEditContactDiv {
+	display: flex;
+}
+
+.noteContent {
+	margin-bottom: 20px;
+}
+
+.noteContent p{
+	margin-bottom: -15px;
+}
+
+.newNote {
+    background-color: #f7f794;
+}
+
+.newImportantNote {
+	background-color: #ffb743;
+}
+
+.hiddenNote {
+    display: none;
+}
+
+#newNoteForm,
+#newContactForm {
+    display: none;
+	margin-top: 10px;
+}
+
+.break-lines {
+    white-space: normal;
+}
+
+
+
+/* Styles for the modal */
+.modal {
+  display: none;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-5%, 0%);
+    z-index: 1;
+    width: 60%;
+    max-height: 100%;
+	/* Enable vertical scrolling if content exceeds the maximum height */
+    overflow-y: auto;
+	background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+	border: none;
+}
+
+.modal-content {
+  background-color: #eeeedd;
+  margin: 10px 10px;
+  padding: 20px;
+  border: none;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.noteText {
+	width: 99%;
+}
